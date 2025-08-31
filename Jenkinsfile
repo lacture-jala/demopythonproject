@@ -4,7 +4,7 @@ pipeline{
     environment{
         AWS_ACCOUNT_ID = "156172784305"
         AWS_REGION= "ap-south-1"
-        ECR_REPO_NAME="ECR_REPO_NAME"
+        ECR_REPO_NAME="acr-repo"
         IMAGE_TAG="latest"
     }
     stages{
